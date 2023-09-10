@@ -6,3 +6,10 @@ print(letras)  # {"b", "a", "c", "x", "i"}
 
 carros = set(("palio", "gol", "celta", "palio"))
 print(carros)  # {"gol", "celta", "palio"}
+
+nomes = {"Ximira", "Xelo", "Xalasa", "Xulapa", "Xernobil", "Ximira", "Xurrasco", "Xalasa"}
+print(nomes)
+
+nomes = list(nomes)
+
+print(nomes[1])

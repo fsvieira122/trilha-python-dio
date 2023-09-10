@@ -7,4 +7,6 @@ def salario_bonus(bonus):
     return salario
 
 
-salario_bonus(500)  # 2500
+bonus_saldo = salario_bonus (int(input ("insira o bônus: ")))
+
+print(bonus_saldo)
